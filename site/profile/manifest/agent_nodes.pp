@@ -5,4 +5,5 @@ class profile::agent_nodes {
   host {'web.puppet.vm':
     ensure => present,
     ip => '',
+       }
  }
